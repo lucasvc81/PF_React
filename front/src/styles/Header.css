@@ -1,0 +1,15 @@
+header {
+    background-color: #FFDE59;
+    padding: 16px 0;
+}
+
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 3000;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+  }
