@@ -16,7 +16,7 @@ router.post('/', async (req, res, next) => {
     var data = await usuarioModel.getUserByUsernameAndPassword(usuario, password);
 
     if (data != undefined) {
-      res.redirect('admin/novedades');
+      res.redirect('/admin/novedades');
     } else {
       res.render('admin/login', {
         layout: 'admin/layout',
