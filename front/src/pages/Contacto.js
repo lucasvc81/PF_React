@@ -33,9 +33,8 @@ const Contacto = (props) => {
         <ul>
           <li>Tel. +54 9 11 3067 2352</li>
           <li>Email: info@adketing.com</li>
-          <li>Facebook: AdKeting</li>
-          <li>Instagram: AdKeting</li>
-          <li>Skype: AdKeting</li>
+          <li>Facebook: @AdKeting</li>
+          <li>Instagram: @AdKeting</li>
         </ul>
 
       </div>
