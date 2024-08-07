@@ -25,10 +25,10 @@ router.post('/agregar', async (req, res, next) => {
         await novedadesModel.insertNovedad(req.body);
         res.redirect('/admin/novedades')
       } else {
-        res.render('/admin/agregar', {
+        res.render('admin/agregar', {
           layout: 'admin/layout',
           error: true,
-          message: 'Todos los campos son requeridos'
+          message: 'Todos los campos son requeridos',
         })
       }
   } catch (error) {
